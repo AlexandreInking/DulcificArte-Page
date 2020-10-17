@@ -45,4 +45,5 @@ ul .start-contact, ul li:nth-child(4):hover~.anim{
 
 .carousel-txt{
 	color: #112;
+	background-color: rgba(255,255,255,.7);
 }
