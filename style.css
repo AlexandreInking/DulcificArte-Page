@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.item-img{
+	transition: 0.25s ease;
+	filter: grayscale() blur(2px);
+}
+
+.nav-link{
+	z-index: 1;
+}
+
+.anim{
+	position: absolute;
+	height: 15%;
+	bottom: 0;
+	z-index: 0;
+	background: #1abc9c;
+	width: 60px;
+	border-radius: 23px;
+	transition: all .5s ease 0s;
+}
+
+ul .start-home, ul li:nth-child(1):hover~.anim{
+	width: 57px;
+	left: 230px;
+}
+
+ul .start-we, ul li:nth-child(2):hover~.anim{
+	width: 80px;
+	left: 288px;
+}
+
+
+ul .start-products, ul li:nth-child(3):hover~.anim{
+	width: 100px;
+	left: 369px;
+}
+
+
+ul .start-contact, ul li:nth-child(4):hover~.anim{
+	width: 80px;
+	left: 470px;
+}
+
+.item-img:hover{
+	transition: 0.5s ease;
+	filter: none;
+}
+
+.carousel-txt{
+	color: #112;
+}
