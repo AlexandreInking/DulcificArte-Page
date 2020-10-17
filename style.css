@@ -28,14 +28,14 @@ ul .start-we, ul li:nth-child(2):hover~.anim{
 
 
 ul .start-products, ul li:nth-child(3):hover~.anim{
-	width: 100px;
+	width: 86px;
 	left: 439px;
 }
 
 
 ul .start-contact, ul li:nth-child(4):hover~.anim{
 	width: 80px;
-	left: 540px;
+	left: 526px;
 }
 
 .item-img:hover{
