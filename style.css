@@ -5,10 +5,6 @@
 	filter: grayscale() blur(2px);
 }
 
-.nav-link{
-	z-index: 1;
-}
-
 .anim{
 	position: absolute;
 	height: 15%;
@@ -22,24 +18,24 @@
 
 ul .start-home, ul li:nth-child(1):hover~.anim{
 	width: 57px;
-	left: 330px;
+	left: 300px;
 }
 
 ul .start-we, ul li:nth-child(2):hover~.anim{
 	width: 80px;
-	left: 288px;
+	left: 358px;
 }
 
 
 ul .start-products, ul li:nth-child(3):hover~.anim{
 	width: 100px;
-	left: 369px;
+	left: 439px;
 }
 
 
 ul .start-contact, ul li:nth-child(4):hover~.anim{
 	width: 80px;
-	left: 470px;
+	left: 540px;
 }
 
 .item-img:hover{
