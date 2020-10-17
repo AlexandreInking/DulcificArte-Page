@@ -22,7 +22,7 @@
 
 ul .start-home, ul li:nth-child(1):hover~.anim{
 	width: 57px;
-	left: 230px;
+	left: 330px;
 }
 
 ul .start-we, ul li:nth-child(2):hover~.anim{
